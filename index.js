@@ -1,9 +1,9 @@
 var randomNumber1=Math.floor((Math.random()*6)+1);
 var randomNumber2=Math.floor((Math.random()*6)+1);
-const img1=document.querySelector(".img1");
-img1.setAttribute("src","images/dice"+randomNumber1+".png");
-const img2=document.querySelector(".img2");
-img2.setAttribute("src","images/dice"+randomNumber2+".png");
+const imgOne=document.querySelector(".img1");
+imgOne.setAttribute("src","images/dice"+randomNumber1+".png");
+const imgTwo=document.querySelector(".img2");
+imgTwo.setAttribute("src","images/dice"+randomNumber2+".png");
 
 // check who won
 if (randomNumber1>randomNumber2){
